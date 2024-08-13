@@ -18,3 +18,6 @@
 
 - `python manage.py generate`
 
+- `pip install django-extensions`
+    - add INSTALLED_APPS
+    - `python manage.py shell_plus`
