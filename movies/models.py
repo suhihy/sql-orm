@@ -11,6 +11,7 @@ class Movie(models.Model):
     title = models.CharField(max_length=500)
     year = models.IntegerField()
     actors = models.ManyToManyField(Actor, related_name='movies')
+    # categories = 
 
 
 class Category(models.Model):
@@ -23,6 +24,7 @@ class User(models.Model):
     country = models.CharField(max_length=500)
     email = models.CharField(max_length=500)
     age = models.IntegerField()
+    # score_set = 
 
 
 class Score(models.Model):
