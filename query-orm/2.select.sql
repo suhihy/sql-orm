@@ -32,8 +32,9 @@
 
 -- Movie.objects.filter(Q(year__lte=2000) | Q(year__gte=2010))
 -- SELECT * FROM movies_movie
--- WHERE year <= 2000 OR year >= 2010;
-
+-- WHERE year <= 2000 OR year >= 2010
+-- ORDER BY year ASC;
+--  ASC : 오름차순/ DESC : 내림차순
 
 -- User.objects.exclude(age__gt=30)
 -- SELECT * FROM movies_user
@@ -75,4 +76,5 @@
 
 -- Movie.objects.filter(year__range=[1990, 2000])
 SELECT * FROM movies_movie
-WHERE year BETWEEN 1990 AND 2000;
+WHERE year BETWEEN 1990 AND 2000
+ORDER BY year ASC;

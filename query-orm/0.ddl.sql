@@ -1,7 +1,7 @@
--- 테이블 생성
+-- -- 테이블 생성
 -- CREATE TABLE test (
 --     id INTEGER PRIMARY KEY AUTOINCREMENT,
---     name TEXT, /
+--     name TEXT, 
 --     age INTEGER
 -- );
 
@@ -19,4 +19,4 @@
 
 
 -- 테이블 삭제
-DROP TABLE users;
+-- DROP TABLE users;
